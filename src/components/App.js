@@ -2,7 +2,7 @@ import React from 'react';
 import LetterInput from './LetterInput';
 const App = props => {
   return(
-    <div>
+    <div className = "hogwarts" >
       <LetterInput/>
     </div>
   )
