@@ -8,7 +8,7 @@ class LetterInput extends Component {
     super(props)
     this.state = {
       accept: true,
-      addressee: "Addressee"
+      addressee: "Addressee,"
 
     }
     this.handleRejectButton = this.handleRejectButton.bind(this);

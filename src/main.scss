@@ -1,2 +1,20 @@
 @import 'stylesheets/Colors';
 @import 'stylesheets/App';
+
+
+p {
+  line-height: 0.5;
+  text-align: justify;
+  text-justify: inter-word;
+  text-indent: 60px;
+}
+
+.hogwarts {
+  text-align: center;
+  border-radius: 25px;
+  width: 800px;
+  border: 3px solid black;
+  padding: 5px;
+  background-color: #DEB887;
+  color: black;
+}

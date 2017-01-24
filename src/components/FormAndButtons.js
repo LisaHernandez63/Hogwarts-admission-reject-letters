@@ -5,7 +5,8 @@ const FormAndButtons = props => {
     <form>
       <input type="button" name="button" value="Reject" onClick={props.handleRejectButton}/>
       <input type="button" name="button" value="Accept" onClick={props.handleAcceptButton}/>
-      <input type="text" name="addressee" onChange={props.handleAddresseeForm}/>
+      <br/>
+      Addressee: <input type="text" name="addressee" onChange={props.handleAddresseeForm}/>
     </form>
   )
 }
